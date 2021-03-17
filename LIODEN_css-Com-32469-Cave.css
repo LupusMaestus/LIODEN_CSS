@@ -1747,9 +1747,9 @@
 		height: 100%;
 		opacity: 0.9;
 		position: absolute;
-    	top: 0;
-    	left: 0;
-    	z-index: 101;
+		top: 0;
+		left: 0;
+		z-index: 101;
 		transition: opacity 0.5s;
 	}
 
