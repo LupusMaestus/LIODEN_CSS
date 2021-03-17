@@ -3363,6 +3363,7 @@
 		width: 50px;
 		height: 30px;
 		padding-left: 50px;
+		z-index: 101;
 		transition: 0.5s !important;
 	}
 
@@ -3388,6 +3389,7 @@
 		position: absolute;
     	top: 0;
     	left: 0;
+    	z-index: 101;
 		transition: opacity 0.5s;
 	}
 
@@ -3406,6 +3408,7 @@
 		position: absolute;
     	top: 0;
     	left: 0;
+    	z-index: 101;
 		transition: opacity 0.5s;
 	}
 
