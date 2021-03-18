@@ -1320,6 +1320,26 @@
 
 /* IMAGE EFFECTS, IMAGE REPLACEMENTS & CIRCULAR BORDERS */
 
+	/* Lioden Logo Replacement */
+
+	div.container.main>div:nth-child(1)>nav>div.navbar-header>a {
+		pointer-events: auto;
+	}
+
+	div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+		visibility: hidden;
+		position: relative;
+	}
+
+	div.container.main>div:nth-child(1)>nav>div.navbar-header>a::before {
+		content: url('https://imgur.com/cd3x132.png');
+		position: absolute;
+		left: 60px;
+		top: -20px;
+		margin-top: 0px;
+		margin-left: 0px;
+	}
+
 	/* Social Media */
 
 	img[src$="iconFB.png"] {
