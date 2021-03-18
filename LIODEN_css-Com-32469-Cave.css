@@ -1739,6 +1739,7 @@
 
 	/* Arrows */
 	div.col-md-9.col-xs-12>div.floatleft>img[src$="arrowgrayleft.png"] {
+		position: relative;
 		box-sizing: border-box;
 		background: url(https://imgur.com/7zpgFOP.png) 0 0 / contain no-repeat;
 		width: 50px;
