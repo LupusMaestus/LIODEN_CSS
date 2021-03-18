@@ -39,6 +39,7 @@
 		background: url('https://imgur.com/1rocOLy.png') left / 1920px 1080px no-repeat fixed;
 		image-rendering: pixelated;
 		image-rendering: -moz-crisp-edges;
+		background-size: cover;
 	}
 
 	/* Containers */
